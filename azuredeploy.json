@@ -107,6 +107,23 @@
                     }
                 },
                 {
+                    "apiVersion": "2015-05-01",
+                    "name": "string",
+                    "type": "Microsoft.Insights/components",
+                    "location": "string",
+                    "tags": {},
+                    "kind": "string",
+                    "properties": {
+                    "Application_Type": "string",
+                    "Flow_Type": "Bluefield",
+                    "Request_Source": "rest",
+                    "HockeyAppId": "string",
+                    "SamplingPercentage": "number",
+                    "RetentionInDays": "integer",
+                    "DisableIpMasking": "boolean",
+                    "ImmediatePurgeDataOn30Days": "boolean"
+                    },
+                {
                     "apiVersion": "2014-04-01-preview",
                     "name": "SQLServerFirewallRules",
                     "type": "firewallrules",
