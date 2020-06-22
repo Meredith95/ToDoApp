@@ -122,7 +122,8 @@
                     "RetentionInDays": "integer",
                     "DisableIpMasking": "boolean",
                     "ImmediatePurgeDataOn30Days": "boolean"
-                    },
+                  }
+                },
                 {
                     "apiVersion": "2014-04-01-preview",
                     "name": "SQLServerFirewallRules",
